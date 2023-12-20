@@ -33,8 +33,8 @@
 
 // These values are defaults and are used for ShadowConnectParametersDefault.
 // You should override them from your own code.
-#define AWS_IOT_MQTT_CLIENT_ID         "ESP32" ///< MQTT client ID should be unique for every device
-#define AWS_IOT_MY_THING_NAME          "ESP32" ///< Thing Name of the Shadow this device is associated with
+#define AWS_IOT_MQTT_CLIENT_ID         "Udemy_ESP32_Test"//"ESP32" ///< MQTT client ID should be unique for every device
+#define AWS_IOT_MY_THING_NAME          "Udemy_ESP32_Test"//"ESP32" ///< Thing Name of the Shadow this device is associated with
 
 // MQTT PubSub
 #define AWS_IOT_MQTT_TX_BUF_LEN CONFIG_AWS_IOT_MQTT_TX_BUF_LEN ///< Any time a message is sent out through the MQTT layer. The message is copied into this buffer anytime a publish is done. This will also be used in the case of Thing Shadow
